@@ -1,0 +1,25 @@
+{
+  "name": "lixcontroller",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "author": "eduhdev12",
+  "license": "MIT",
+  "dependencies": {
+    "battery-level": "^3.0.0",
+    "bulma": "^0.9.1",
+    "cookie-parser": "^1.4.5",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "express-basic-auth": "^1.2.0",
+    "ip": "^1.1.5",
+    "is-charging": "^2.0.0",
+    "nodemon": "^2.0.6",
+    "systeminformation": "^4.32.0"
+  }
+}
